@@ -1,0 +1,16 @@
+package com.example.cardgame.domain.util;
+
+public enum ErrorCode {
+    GAME_NOT_FOUND,
+    PLAYER_NOT_FOUND,
+    DECK_NOT_FOUND,
+    PLAYER_ALREADY_EXISTS,
+    PLAYER_NOT_IN_GAME,
+    INVALID_PLAYER_NAME,
+    INVALID_PLAYER_ID,
+    INVALID_PLAYER_HAND,
+    INVALID_NEW_CARDS,
+    INVALID_DECK_ID,
+    INVALID_CARD,
+    INVALID_COUNT
+}
